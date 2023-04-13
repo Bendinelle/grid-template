@@ -1,1 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 
+header {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ccc;
+    height: 10vh;
+    padding: 0 2%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+section figure{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.gallery{
+    background-color: lightcoral;
+    padding: 10px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, 150px);
+    justify-content: center;
+}
+
+main aside{
+    background-color: aquamarine;
+}
+
+footer{
+    background-color: #ccc;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+}
